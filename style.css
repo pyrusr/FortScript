@@ -1,0 +1,41 @@
+.hud {
+    float: bottom;
+    width: 600px;
+    height: 100px;
+    background: #FFF;
+    border: solid 5px #aaaaaa;
+    padding: 1%;
+}
+
+.hud2 {
+    width: 33%;
+    float: left;
+}
+
+.stormsh {
+    width: 31%;
+    float: left;
+}
+
+.hud_text {
+    float: none
+}
+
+.counter-font {
+    font-size: 50px;
+}
+
+.center {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.game {
+    float: left;
+    width: 600px;
+    height: 500px;
+    border: solid 5px white;
+    padding: 1%;
+    background: url(imagens/cenario.png);
+    background-position: bottom;
+}

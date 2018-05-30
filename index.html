@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>FortScript</title>
+
+    <script language='Javascript'>
+        function selectLevel() {
+            var level = document.getElementById('level').value;
+            window.location.href = 'game.html?' + level;
+        }
+
+    </script>
+</head>
+
+<body>
+    <div>
+        <p>
+            <b>
+                    Level:
+                </b>
+            <select name="" id="level">
+                    <option value="1">Easy</option>
+                    <option value="2">Normal</option>
+                    <option value="3">Hard</option>
+                </select>
+        </p>
+        <br/>
+        <img src="imagens/iniciar.png" onclick="selectLevel()" alt="">
+    </div>
+</body>
+
+</html>

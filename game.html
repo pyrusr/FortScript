@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>FortScript</title>
+    <script src="engine.js">
+
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="startGame()">
+    <div class="hud">
+        <div class="hud2">
+            <img src="imagens/balao_azul_grande.png">
+            <span id="enemy_alive" class="counter-font center"></span>
+
+        </div>
+        <div class="hud2">
+            <img src="imagens/rip.png">
+            <span id="enemy_dead" class="counter-font center"></span>
+
+        </div>
+        <div class="stormsh">
+            <img src="imagens/storm.png">
+            <span id="storm" class="counter-font center"></span>
+
+        </div>
+
+        <div class="hud2">
+            <span class="hud_text">Alive</span>
+        </div>
+        <div class="hud2">
+            <span class="hud_text">Dead</span>
+        </div>
+        <div class="stormsh">
+            <span class="hud_text">Storm Eye Shriking</span>
+        </div>
+    </div>
+    <div id="background" class="game">
+    </div>
+</body>
+
+</html>
