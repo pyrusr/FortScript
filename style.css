@@ -5,11 +5,12 @@
 
 .hud {
     float: bottom;
-    width: 600px;
+    width: 800px;
     height: 100px;
-    background: #FFF;
-    border: solid 5px #aaaaaa;
+    background: linear-gradient(#3b432e, #4D573B, #5E5224);
+    border: solid 7px #c5c6c1;
     padding: 1%;
+
 }
 
 .hud2 {
@@ -25,14 +26,18 @@
 .hud_text {
     float: none;
     font-family: "bb";
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    color: white;
 
 }
 
 .counter-font {
     font-size: 50px;
     font-family: "bb";
+    background: -webkit-linear-gradient(#F3E100, #958c19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .center {
@@ -42,11 +47,11 @@
 
 .game {
     float: left;
-    width: 600px;
-    height: 500px;
-    border: solid 5px white;
+    width: 800px;
+    height: 420px;
+    border: solid 7px #c5c6c1;
     padding: 1%;
-    background: url(img/cenario.png);
+    /*background: url(img/background/background1.jpg);*/
     background-position: bottom;
 }
 

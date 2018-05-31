@@ -1,4 +1,5 @@
 var timerID = null;
+var bg = document.getElementById(background);
 
 function startGame() {
 
@@ -8,12 +9,15 @@ function startGame() {
 
     if (level_game == 1) {
         seconds = 120;
+        background.style.background = "url(img/background/background1.jpg)";
     }
     if (level_game == 2) {
         seconds = 60;
+        background.style.background = "url(img/background/background2.jpg)";
     }
     if (level_game == 3) {
         seconds = 30;
+        background.style.background = "url(img/background/background3.jpg)";
     }
     if (level_game == 4) {
         seconds = 5;
@@ -21,7 +25,7 @@ function startGame() {
 
     document.getElementById('storm').innerHTML = seconds;
 
-    var enemy_qnt = 42;
+    var enemy_qnt = 50;
     spawn_enemy(enemy_qnt);
     document.getElementById('enemy_alive').innerHTML = enemy_qnt;
     document.getElementById('enemy_dead').innerHTML = 0;
