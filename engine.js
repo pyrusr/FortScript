@@ -48,8 +48,9 @@ function game_over() {
 
 function spawn_enemy(enemy_qnt) {
     for (var i = 1; i <= enemy_qnt; i++) {
-        var enemy = document.createElement("img");
-        enemy.src = 'imagens/balao_azul_pequeno.png'
+        var enemy = document.createElement("img"); 
+        var random = Math.floor(Math.random() * 20);
+        enemy.src = 'img/enemys/enemy'+random+'.png';
         enemy.style.margin = '10px';
         enemy.id = 'enemyID_' + i;
         enemy.onclick = function () {
@@ -63,7 +64,7 @@ function spawn_enemy(enemy_qnt) {
 function shot_enemy(shot) {
     var enemy_id = shot.id
     document.getElementById(enemy_id).setAttribute("onclick","")
-    document.getElementById(enemy_id).src = 'imagens/rip.png'
+    document.getElementById(enemy_id).src = 'img/rip.png';
     enemyCountdown(-1);
 }
 
