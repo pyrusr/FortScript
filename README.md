@@ -11,3 +11,4 @@ A logica do jogo foi baseada em um jogo de estourar balões, onde o jogador tem 
 
 O jogo é inspirado no game FortNite - Save the World e Battleroyale. 
 
+![](fortscript.jpeg)
