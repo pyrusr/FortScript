@@ -2,7 +2,8 @@
 
 
 ```diff
-- Este jogo ainda está em desenvolvimento.
+- Este jogo foi desenvolvido quando eu estava dando os primeiros passos em Javascript.
+- This game was developed when I was trying to understading Javascript.
 
 ```
 
